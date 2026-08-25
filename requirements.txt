@@ -1,0 +1,28 @@
+# Core dependencies for AI Streetwear Brand
+# Optimized for GitHub Codespaces (Linux/cloud)
+
+# === AI / ML ===
+openai>=1.0.0
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+faiss-cpu>=1.8.0
+transformers>=4.40.0
+torch>=2.0.0
+pillow>=10.0.0
+
+# === Web Scraping ===
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pytrends>=4.9.0
+
+# === Web Framework ===
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+
+# === Environment ===
+python-dotenv>=1.0.0
+
+# === Utils ===
+numpy>=1.24.0
